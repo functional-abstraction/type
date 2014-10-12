@@ -45,6 +45,8 @@ test( "isnan", function () {
 	two( Math.E, false );
 
 
+	one( null, false );
+	one( undefined, false );
 	one( "", false );
 	one( "0", false );
 	one( "1", false );

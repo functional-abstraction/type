@@ -45,6 +45,8 @@ test( "isfinite", function () {
 	two( Math.E, true );
 
 
+	one( null, false );
+	one( undefined, false );
 	one( "", false );
 	one( "0", false );
 	one( "1", false );
