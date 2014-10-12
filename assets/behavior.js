@@ -22,25 +22,155 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
       "depth": 1,
       "outline": []
     }, {
-      "type": "file",
+      "type": "folder",
       "data": {
-        "language": {
-          "nameMatchers": [".js"],
-          "pygmentsLexer": "javascript",
-          "multiLineComment": ["/*", "*", "*/"],
-          "singleLineComment": ["//"],
-          "ignorePrefix": "}",
-          "foldPrefix": "^",
-          "name": "JavaScript"
-        },
-        "sourcePath": "/home/genius/dev/js/js-type/js/src/dummy.js",
-        "projectPath": "js/src/dummy.js",
-        "targetPath": "dummy",
-        "pageTitle": "dummy",
-        "title": "dummy"
+        "path": "number",
+        "title": "number"
       },
       "depth": 1,
-      "outline": []
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isfinite.js",
+            "projectPath": "js/src/number/isfinite.js",
+            "targetPath": "number/isfinite",
+            "pageTitle": "number/isfinite",
+            "title": "isfinite"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isint.js",
+            "projectPath": "js/src/number/isint.js",
+            "targetPath": "number/isint",
+            "pageTitle": "number/isint",
+            "title": "isint"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isint32.js",
+            "projectPath": "js/src/number/isint32.js",
+            "targetPath": "number/isint32",
+            "pageTitle": "number/isint32",
+            "title": "isint32"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isnan.js",
+            "projectPath": "js/src/number/isnan.js",
+            "targetPath": "number/isnan",
+            "pageTitle": "number/isnan",
+            "title": "isnan"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isnegativeinfinity.js",
+            "projectPath": "js/src/number/isnegativeinfinity.js",
+            "targetPath": "number/isnegativeinfinity",
+            "pageTitle": "number/isnegativeinfinity",
+            "title": "isnegativeinfinity"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isnumber.js",
+            "projectPath": "js/src/number/isnumber.js",
+            "targetPath": "number/isnumber",
+            "pageTitle": "number/isnumber",
+            "title": "isnumber"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/ispositiveinfinity.js",
+            "projectPath": "js/src/number/ispositiveinfinity.js",
+            "targetPath": "number/ispositiveinfinity",
+            "pageTitle": "number/ispositiveinfinity",
+            "title": "ispositiveinfinity"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
     }
   ];
 
