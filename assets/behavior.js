@@ -13,11 +13,71 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/home/genius/dev/js/js-type/README.md",
+        "sourcePath": "/home/aureooms/dev/js/js-type/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "pageTitle": "index",
         "title": "index"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-type/js/src/isinstance.js",
+        "projectPath": "js/src/isinstance.js",
+        "targetPath": "isinstance",
+        "pageTitle": "isinstance",
+        "title": "isinstance"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-type/js/src/isnull.js",
+        "projectPath": "js/src/isnull.js",
+        "targetPath": "isnull",
+        "pageTitle": "isnull",
+        "title": "isnull"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-type/js/src/isundefined.js",
+        "projectPath": "js/src/isundefined.js",
+        "targetPath": "isundefined",
+        "pageTitle": "isundefined",
+        "title": "isundefined"
       },
       "depth": 1,
       "outline": []
@@ -41,7 +101,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isfinite.js",
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/number/isfinite.js",
             "projectPath": "js/src/number/isfinite.js",
             "targetPath": "number/isfinite",
             "pageTitle": "number/isfinite",
@@ -61,7 +121,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isint.js",
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/number/isint.js",
             "projectPath": "js/src/number/isint.js",
             "targetPath": "number/isint",
             "pageTitle": "number/isint",
@@ -81,7 +141,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isint32.js",
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/number/isint32.js",
             "projectPath": "js/src/number/isint32.js",
             "targetPath": "number/isint32",
             "pageTitle": "number/isint32",
@@ -101,7 +161,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isnan.js",
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/number/isnan.js",
             "projectPath": "js/src/number/isnan.js",
             "targetPath": "number/isnan",
             "pageTitle": "number/isnan",
@@ -121,7 +181,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isnegativeinfinity.js",
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/number/isnegativeinfinity.js",
             "projectPath": "js/src/number/isnegativeinfinity.js",
             "targetPath": "number/isnegativeinfinity",
             "pageTitle": "number/isnegativeinfinity",
@@ -141,7 +201,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/isnumber.js",
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/number/isnumber.js",
             "projectPath": "js/src/number/isnumber.js",
             "targetPath": "number/isnumber",
             "pageTitle": "number/isnumber",
@@ -161,11 +221,161 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/genius/dev/js/js-type/js/src/number/ispositiveinfinity.js",
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/number/ispositiveinfinity.js",
             "projectPath": "js/src/number/ispositiveinfinity.js",
             "targetPath": "number/ispositiveinfinity",
             "pageTitle": "number/ispositiveinfinity",
             "title": "ispositiveinfinity"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "object",
+        "title": "object"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/object/isarray.js",
+            "projectPath": "js/src/object/isarray.js",
+            "targetPath": "object/isarray",
+            "pageTitle": "object/isarray",
+            "title": "isarray"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/object/isboolean.js",
+            "projectPath": "js/src/object/isboolean.js",
+            "targetPath": "object/isboolean",
+            "pageTitle": "object/isboolean",
+            "title": "isboolean"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/object/isdate.js",
+            "projectPath": "js/src/object/isdate.js",
+            "targetPath": "object/isdate",
+            "pageTitle": "object/isdate",
+            "title": "isdate"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/object/isfunction.js",
+            "projectPath": "js/src/object/isfunction.js",
+            "targetPath": "object/isfunction",
+            "pageTitle": "object/isfunction",
+            "title": "isfunction"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/object/isobject.js",
+            "projectPath": "js/src/object/isobject.js",
+            "targetPath": "object/isobject",
+            "pageTitle": "object/isobject",
+            "title": "isobject"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/object/isregexp.js",
+            "projectPath": "js/src/object/isregexp.js",
+            "targetPath": "object/isregexp",
+            "pageTitle": "object/isregexp",
+            "title": "isregexp"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-type/js/src/object/isstring.js",
+            "projectPath": "js/src/object/isstring.js",
+            "targetPath": "object/isstring",
+            "pageTitle": "object/isstring",
+            "title": "isstring"
           },
           "depth": 2,
           "outline": []
