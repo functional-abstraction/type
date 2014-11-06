@@ -24,7 +24,7 @@
 		"type": "git",
 		"url": "https://github.com/aureooms/js-type.git"
 	},
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"author": "aureooms",
 	"name": "aureooms-js-type",
 	"homepage": "http://aureooms.github.io/js-type/",
