@@ -7,9 +7,9 @@ one = function ( n, v ) {
 
 	var msg;
 
-	msg = util.format( "type.isnan( %s ) === %s", n, v );
+	msg = util.format( "type.isstring( %s ) === %s", n, v );
 
-	deepEqual( type.isnan( n ), v, msg );
+	deepEqual( type.isstring( n ), v, msg );
 };
 
 two = function ( n, v ) {
@@ -19,10 +19,10 @@ two = function ( n, v ) {
 
 
 
-test( "isnan", function () {
+test( "isstring", function () {
 
 	one( 0, false );
-	one( NaN, true );
+	one( NaN, false );
 	one( Infinity, false );
 	one( -Infinity, false );
 	one( +Infinity, false );
@@ -32,13 +32,13 @@ test( "isnan", function () {
 
 	two( 0.000001, false );
 	two( 1.2121289e127, false );
-	two( Math.pow(2, 31) - 1, false );
-	two( Math.pow(2, 32), false );
-	two( Math.pow(2, 32) - 1, false );
-	two( Math.pow(2, 53) - 1, false );
+	two( Math.pow( 2, 31 ) - 1, false );
+	two( Math.pow( 2, 32 ), false );
+	two( Math.pow( 2, 32 ) - 1, false );
+	two( Math.pow( 2, 53 ) - 1, false );
 
-	one(  Math.pow(2, 31), false );
-	one( -Math.pow(2, 31), false );
+	one(  Math.pow( 2, 31 ), false );
+	one( -Math.pow( 2, 31 ), false );
 
 	two( Math.PI, false );
 	two( Math.E, false );
@@ -69,14 +69,14 @@ test( "isnan", function () {
 
 	one( /a/, false );
 
-	one( "", false );
-	one( "0", false );
-	one( "1", false );
-	one( "-1", false );
-	one( "NaN", false );
-	one( "Infinity", false );
-	one( "-Infinity", false );
-	one( "+Infinity", false );
+	one( "", true );
+	one( "0", true );
+	one( "1", true );
+	one( "-1", true );
+	one( "NaN", true );
+	one( "Infinity", true );
+	one( "-Infinity", true );
+	one( "+Infinity", true );
 
 	one( null, false );
 

@@ -1,15 +1,15 @@
 
 var util, one, two;
 
-util = require("util");
+util = require( "util" );
 
 one = function ( n, v ) {
 
 	var msg;
 
-	msg = util.format("type.isfinite(%s) === %s", n, v);
+	msg = util.format( "type.isfinite( %s ) === %s", n, v );
 
-	deepEqual(type.isfinite(n), v, msg);
+	deepEqual( type.isfinite( n ), v, msg );
 };
 
 two = function ( n, v ) {
@@ -26,7 +26,6 @@ test( "isfinite", function () {
 	one( Infinity, false );
 	one( -Infinity, false );
 	one( +Infinity, false );
-
 
 	two( 1, true );
 	two( 2, true );
@@ -45,8 +44,31 @@ test( "isfinite", function () {
 	two( Math.E, true );
 
 
-	one( null, false );
-	one( undefined, false );
+	one( [], false );
+	one( [0], false );
+	one( [1], false );
+
+	one( true, false );
+	one( false, false );
+
+	one( new Date(), false );
+
+	one( Number, false );
+	one( Array, false );
+	one( Boolean, false );
+	one( Date, false );
+	one( Function, false );
+	one( Object, false );
+	one( RegExp, false );
+	one( String, false );
+	one( function () {}, false );
+
+	one( {}, false );
+	one( { 0 : 0 }, false );
+	one( { 1 : 1 }, false );
+
+	one( /a/, false );
+
 	one( "", false );
 	one( "0", false );
 	one( "1", false );
@@ -55,15 +77,9 @@ test( "isfinite", function () {
 	one( "Infinity", false );
 	one( "-Infinity", false );
 	one( "+Infinity", false );
-	one( true, false );
-	one( false, false );
-	one( [], false );
-	one( [0], false );
-	one( [1], false );
-	one( {}, false );
-	one( { 0 : 0 }, false );
-	one( { 1 : 1 }, false );
 
+	one( null, false );
 
+	one( undefined, false );
 
 });
