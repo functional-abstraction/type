@@ -1,4 +1,5 @@
 
+
 var isnegativeinfinity = function ( value ) {
 	return value === -Infinity;
 };

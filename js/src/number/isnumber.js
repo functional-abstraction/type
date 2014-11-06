@@ -1,9 +1,8 @@
 
 
-
 var isnumber = function ( value ) {
 
-	return (typeof value) === "number";
+	return isinstance( Number, value );
 
 };
 

@@ -1,4 +1,5 @@
 
+
 var ispositiveinfinity = function ( value ) {
 	return value === Infinity;
 };
