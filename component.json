@@ -1,0 +1,11 @@
+{
+	"description": "type checking code bricks for JavaScript",
+	"version": "1.0.0",
+	"repo": "aureooms/js-type",
+	"scripts": [
+		"js/dist/type.js"
+	],
+	"name": "aureooms-js-type",
+	"license": "AGPL-3.0",
+	"main": "js/dist/type.js"
+}
