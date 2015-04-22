@@ -13,3 +13,4 @@ type checking code bricks for JavaScript
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-type.svg?style=flat)](https://codeclimate.com/github/aureooms/js-type)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-type.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-type)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-type.svg?style=flat)](https://github.com/aureooms/js-type/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-type.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-type)
