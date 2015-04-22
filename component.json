@@ -1,6 +1,6 @@
 {
 	"description": "type checking code bricks for JavaScript",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"repo": "aureooms/js-type",
 	"scripts": [
 		"js/dist/type.js"
