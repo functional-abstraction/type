@@ -13,5 +13,5 @@
 	},
 	"out": "js/dist/",
 	"debug": false,
-	"ns": "type"
+	"name": "type"
 }
