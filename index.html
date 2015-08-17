@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en"><head><title>index</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="index"><meta name="groc-project-path" content="README.md"><meta name="groc-github-url" content="https://github.com/aureooms/js-type"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-type/blob/master/README.md">README.md</a></div></div><div id="document"><div class="segment"><div class="comments "><div class="wrapper"><h1 id="-js-type-http-aureooms-github-io-js-type-"><a href="http://aureooms.github.io/js-type">js-type</a></h1>
-<p>type checking code bricks for JavaScript</p>
+<p>Type checking code bricks for JavaScript.</p>
+<pre><code class="lang-js">type.isfunction( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> </span>) </span>{ } ) ; <span class="hljs-comment">// true</span></code></pre>
 <p><a href="https://raw.githubusercontent.com/aureooms/js-type/master/LICENSE"><img src="http://img.shields.io/npm/l/aureooms-js-type.svg?style=flat" alt="NPM license"></a>
 <a href="https://www.npmjs.org/package/aureooms-js-type"><img src="http://img.shields.io/npm/v/aureooms-js-type.svg?style=flat" alt="NPM version"></a>
 <a href="http://bower.io/search/?q=aureooms-js-type"><img src="http://img.shields.io/bower/v/aureooms-js-type.svg?style=flat" alt="Bower version"></a>
@@ -10,4 +11,67 @@
 <a href="https://codeclimate.com/github/aureooms/js-type"><img src="http://img.shields.io/codeclimate/github/aureooms/js-type.svg?style=flat" alt="Code Climate"></a>
 <a href="https://www.npmjs.org/package/aureooms-js-type"><img src="http://img.shields.io/npm/dm/aureooms-js-type.svg?style=flat" alt="NPM downloads per month"></a>
 <a href="https://github.com/aureooms/js-type/issues"><img src="http://img.shields.io/github/issues/aureooms/js-type.svg?style=flat" alt="GitHub issues"></a>
-<a href="http://inch-ci.org/github/aureooms/js-type"><img src="http://inch-ci.org/github/aureooms/js-type.svg?branch=master&amp;style=shields" alt="Inline docs"></a></p></div></div></div></div></body></html>
+<a href="http://inch-ci.org/github/aureooms/js-type"><img src="http://inch-ci.org/github/aureooms/js-type.svg?branch=master&amp;style=shields" alt="Inline docs"></a></p>
+<p>Can be managed through <a href="https://github.com/jspm/jspm-cli">jspm</a>,
+<a href="https://github.com/duojs/duo">duo</a>,
+<a href="https://github.com/componentjs/component">component</a>,
+<a href="https://github.com/bower/bower">bower</a>,
+<a href="https://github.com/ender-js/Ender">ender</a>,
+<a href="https://github.com/caolan/jam">jam</a>,
+<a href="https://github.com/spmjs/spm">spm</a>,
+and <a href="https://github.com/npm/npm">npm</a>.</p>
+<h2 id="install">Install</h2>
+<h3 id="jspm">jspm</h3>
+<pre><code class="lang-terminal">jspm install github:aureooms/js-type
+# or
+jspm install npm:aureooms-js-type</code></pre>
+<h3 id="duo">duo</h3>
+<p>No install step needed for duo!</p>
+<h3 id="component">component</h3>
+<pre><code class="lang-terminal">component install aureooms/js-type</code></pre>
+<h3 id="bower">bower</h3>
+<pre><code class="lang-terminal">bower install aureooms-js-type</code></pre>
+<h3 id="ender">ender</h3>
+<pre><code class="lang-terminal">ender add aureooms-js-type</code></pre>
+<h3 id="jam">jam</h3>
+<pre><code class="lang-terminal">jam install aureooms-js-type</code></pre>
+<h3 id="spm">spm</h3>
+<pre><code class="lang-terminal">spm install aureooms-js-type --save</code></pre>
+<h3 id="npm">npm</h3>
+<pre><code class="lang-terminal">npm install aureooms-js-type --save</code></pre>
+<h2 id="require">Require</h2>
+<h3 id="jspm">jspm</h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> type = <span class="hljs-built_in">require</span>( <span class="hljs-string">"github:aureooms/js-type"</span> ) ;
+<span class="hljs-comment">// or</span>
+<span class="hljs-keyword">import</span> type <span class="hljs-keyword">from</span> <span class="hljs-string">'aureooms-js-type'</span> ;</code></pre>
+<h3 id="duo">duo</h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> type = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms/js-type"</span> ) ;</code></pre>
+<h3 id="component-ender-spm-npm">component, ender, spm, npm</h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> type = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms-js-type"</span> ) ;</code></pre>
+<h3 id="bower">bower</h3>
+<p>The script tag exposes the global variable <code>type</code>.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"bower_components/aureooms-js-type/js/dist/type.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
+<p>Alternatively, you can use any tool mentioned <a href="http://bower.io/docs/tools/">here</a>.</p>
+<h3 id="jam">jam</h3>
+<pre><code class="lang-js"><span class="hljs-built_in">require</span>( [ <span class="hljs-string">"aureooms-js-type"</span> ] , <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type </span>) </span>{ ... } ) ;</code></pre>
+<h2 id="use">Use</h2>
+<h3 id="generic-methods">Generic methods</h3>
+<h4 id="-type-isinstance-object-"><code>type.isinstance( object )</code></h4>
+<h4 id="-type-isnull-object-"><code>type.isnull( object )</code></h4>
+<h4 id="-type-isundefined-object-"><code>type.isundefined( object )</code></h4>
+<h3 id="methods-for-numbers">Methods for numbers</h3>
+<h4 id="-type-isfinite-object-"><code>type.isfinite( object )</code></h4>
+<h4 id="-type-isint32-object-"><code>type.isint32( object )</code></h4>
+<h4 id="-type-isint-object-"><code>type.isint( object )</code></h4>
+<h4 id="-type-isnan-object-"><code>type.isnan( object )</code></h4>
+<h4 id="-type-isnegativeinfinity-object-"><code>type.isnegativeinfinity( object )</code></h4>
+<h4 id="-type-isnumber-object-"><code>type.isnumber( object )</code></h4>
+<h4 id="-type-ispositiveinfinity-object-"><code>type.ispositiveinfinity( object )</code></h4>
+<h3 id="methods-for-objects">Methods for objects</h3>
+<h4 id="-type-isarray-object-"><code>type.isarray( object )</code></h4>
+<h4 id="-type-isboolean-object-"><code>type.isboolean( object )</code></h4>
+<h4 id="-type-isdate-object-"><code>type.isdate( object )</code></h4>
+<h4 id="-type-isfunction-object-"><code>type.isfunction( object )</code></h4>
+<h4 id="-type-isobject-object-"><code>type.isobject( object )</code></h4>
+<h4 id="-type-isregexp-object-"><code>type.isregexp( object )</code></h4>
+<h4 id="-type-isstring-object-"><code>type.isstring( object )</code></h4></div></div></div></div></body></html>
