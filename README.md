@@ -7,7 +7,7 @@ Type checking code bricks for JavaScript.
 type.isfunction( function ( ) { } ) ; // true
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-type.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-type/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-type.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-type/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-type.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-type)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-type.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-type)
 [![Build Status](https://img.shields.io/travis/aureooms/js-type.svg?style=flat)](https://travis-ci.org/aureooms/js-type)
