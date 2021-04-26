@@ -15,7 +15,7 @@
 	],
 	"name": "aureooms-js-type",
 	"description": "type checking code bricks for JavaScript",
-	"homepage": "http://aureooms.github.io/js-type/",
+	"homepage": "http://make-github-pseudonymous-again.github.io/js-type/",
 	"main": "js/dist/type.js",
 	"license": "AGPL-3.0"
 }
