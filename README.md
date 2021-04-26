@@ -7,17 +7,17 @@ Type checking code bricks for JavaScript.
 type.isfunction( function ( ) { } ) ; // true
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-type.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-type/master/LICENSE)
+[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-type.svg?style=flat)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-type/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-type.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-type)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-type.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-type)
-[![Build Status](https://img.shields.io/travis/aureooms/js-type.svg?style=flat)](https://travis-ci.org/aureooms/js-type)
-[![Coverage Status](https://img.shields.io/coveralls/aureooms/js-type.svg?style=flat)](https://coveralls.io/r/aureooms/js-type)
-[![Dependencies Status](https://img.shields.io/david/aureooms/js-type.svg?style=flat)](https://david-dm.org/aureooms/js-type#info=dependencies)
-[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-type.svg?style=flat)](https://david-dm.org/aureooms/js-type#info=devDependencies)
-[![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-type.svg?style=flat)](https://codeclimate.com/github/aureooms/js-type)
+[![Build Status](https://img.shields.io/travis/make-github-pseudonymous-again/js-type.svg?style=flat)](https://travis-ci.org/make-github-pseudonymous-again/js-type)
+[![Coverage Status](https://img.shields.io/coveralls/make-github-pseudonymous-again/js-type.svg?style=flat)](https://coveralls.io/r/make-github-pseudonymous-again/js-type)
+[![Dependencies Status](https://img.shields.io/david/make-github-pseudonymous-again/js-type.svg?style=flat)](https://david-dm.org/make-github-pseudonymous-again/js-type#info=dependencies)
+[![devDependencies Status](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-type.svg?style=flat)](https://david-dm.org/make-github-pseudonymous-again/js-type#info=devDependencies)
+[![Code Climate](https://img.shields.io/codeclimate/github/make-github-pseudonymous-again/js-type.svg?style=flat)](https://codeclimate.com/github/make-github-pseudonymous-again/js-type)
 [![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-type.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-type)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-type.svg?style=flat)](https://github.com/aureooms/js-type/issues)
-[![Inline docs](http://inch-ci.org/github/aureooms/js-type.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-type)
+[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-type.svg?style=flat)](https://github.com/make-github-pseudonymous-again/js-type/issues)
+[![Inline docs](http://inch-ci.org/github/make-github-pseudonymous-again/js-type.svg?branch=master&style=shields)](http://inch-ci.org/github/make-github-pseudonymous-again/js-type)
 
 Can be managed through [jspm](https://github.com/jspm/jspm-cli),
 [duo](https://github.com/duojs/duo),
