@@ -1,3 +1,4 @@
+:clown_face:
 [@functional-abstraction/type](https://functional-abstraction.github.io/type)
 ==
 
