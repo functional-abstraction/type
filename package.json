@@ -3,7 +3,8 @@
     "test": "ava",
     "build": "NODE_ENV=production microbundle",
     "build-docs": "esdoc",
-    "lint": "true"
+    "lint": "true",
+    "prepare": "npm run build"
   },
   "description": "type checking code bricks for JavaScript",
   "keywords": [
