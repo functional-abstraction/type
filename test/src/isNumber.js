@@ -1,6 +1,6 @@
 import test from 'ava';
-import {isNumber} from '../../src';
-import {isArray, isObject} from '../../src';
+import {isNumber} from '../../src/index.js';
+import {isArray, isObject} from '../../src/index.js';
 
 const macro = ( t, n, v ) => {
 	t.deepEqual( isNumber( n ), v );

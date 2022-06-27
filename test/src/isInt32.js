@@ -1,6 +1,6 @@
 import test from 'ava';
-import {isInt32} from '../../src';
-import {isArray, isObject} from '../../src';
+import {isInt32} from '../../src/index.js';
+import {isArray, isObject} from '../../src/index.js';
 
 const macro = ( t, n, v ) => {
 	t.deepEqual( isInt32( n ), v );

@@ -1,6 +1,6 @@
 import test from 'ava';
-import {isString} from '../../src';
-import {isArray, isObject} from '../../src';
+import {isString} from '../../src/index.js';
+import {isArray, isObject} from '../../src/index.js';
 
 const macro = ( t, n, v ) => {
 	t.deepEqual( isString( n ), v );

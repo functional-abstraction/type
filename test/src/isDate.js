@@ -1,6 +1,6 @@
 import test from 'ava';
-import {isDate} from '../../src';
-import {isArray, isObject} from '../../src';
+import {isDate} from '../../src/index.js';
+import {isArray, isObject} from '../../src/index.js';
 
 const macro = ( t, n, v ) => {
 	t.deepEqual( isDate( n ), v );

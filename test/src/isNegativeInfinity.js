@@ -1,6 +1,6 @@
 import test from 'ava';
-import {isNegativeInfinity} from '../../src';
-import {isArray, isObject} from '../../src';
+import {isNegativeInfinity} from '../../src/index.js';
+import {isArray, isObject} from '../../src/index.js';
 
 const macro = ( t, n, v ) => {
 	t.deepEqual( isNegativeInfinity( n ), v );

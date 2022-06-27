@@ -1,6 +1,6 @@
 import test from 'ava';
-import {isUndefined} from '../../src';
-import {isArray, isObject} from '../../src';
+import {isUndefined} from '../../src/index.js';
+import {isArray, isObject} from '../../src/index.js';
 
 const macro = ( t, n, v ) => {
 	t.deepEqual( isUndefined( n ), v );
