@@ -11,7 +11,7 @@ isFunction(() => {}); // true
 
 [![License](https://img.shields.io/github/license/functional-abstraction/type.svg)](https://raw.githubusercontent.com/functional-abstraction/type/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@functional-abstraction/type.svg)](https://www.npmjs.org/package/@functional-abstraction/type)
-[![Build](https://img.shields.io/travis/functional-abstraction/type/main.svg)](https://travis-ci.com/functional-abstraction/type/branches)
+[![Tests](https://img.shields.io/github/workflow/status/functional-abstraction/type/ci:test?event=push&label=tests)](https://github.com/functional-abstraction/type/actions/workflows/ci:test.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/functional-abstraction/type.svg)](https://github.com/functional-abstraction/type/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/functional-abstraction/type.svg)](https://github.com/functional-abstraction/type/issues)
 [![Downloads](https://img.shields.io/npm/dm/@functional-abstraction/type.svg)](https://www.npmjs.org/package/@functional-abstraction/type)
