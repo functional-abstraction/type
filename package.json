@@ -61,8 +61,6 @@
     "@babel/core": "7.18.5",
     "@babel/preset-env": "7.18.2",
     "@babel/register": "7.17.7",
-    "@commitlint/cli": "17.0.3",
-    "@js-library/commitlint-config": "0.0.4",
     "ava": "4.3.0",
     "babel-plugin-transform-remove-console": "6.9.4",
     "babel-plugin-unassert": "3.2.0",
@@ -73,12 +71,10 @@
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
     "fixpack": "4.0.0",
-    "husky": "8.0.1",
-    "lint-staged": "13.0.3",
     "microbundle": "0.15.0",
     "np": "7.6.2",
-    "pinst": "3.0.0",
     "power-assert": "1.6.1",
+    "regenerator-runtime": "0.13.9",
     "xo": "0.50.0"
   },
   "ava": {
