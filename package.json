@@ -169,5 +169,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "sideEffects": false
 }
