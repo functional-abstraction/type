@@ -13,7 +13,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-type"
+          "title": "@functional-abstraction/type"
         },
         "test": {
           "type": "ava",

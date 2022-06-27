@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-type",
-  "description": "type checking code bricks for JavaScript",
+  "name": "@functional-abstraction/type",
+  "description": "Type helpers for JavaScript",
   "version": "1.0.4",
-  "author": "aureooms",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "files": [
       "test/src/**/*"
@@ -100,7 +100,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-type/issues"
+    "url": "https://github.com/functional-abstraction/type/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -137,7 +137,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "http://make-github-pseudonymous-again.github.io/js-type/",
+  "homepage": "http://functional-abstraction.github.io/type",
   "keywords": [
     "bricks",
     "javascript",
@@ -151,7 +151,7 @@
   "module": "dist/index.module.mjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/make-github-pseudonymous-again/js-type.git"
+    "url": "https://github.com/functional-abstraction/type.git"
   },
   "scripts": {
     "build": "NODE_ENV=production microbundle",

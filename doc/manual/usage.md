@@ -13,7 +13,7 @@ import 'regenerator-runtime/runtime.js';
 
 Then, import the library where needed
 ```js
-const type = await import('@aureooms/js-type');
+const type = await import('@functional-abstraction/type');
 // or
-import * as type from '@aureooms/js-type';
+import * as type from '@functional-abstraction/type';
 ```

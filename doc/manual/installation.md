@@ -8,15 +8,15 @@ or [jspm](https://jspm.org/docs).
 
 ### yarn
 ```terminal
-yarn add @aureooms/js-type
+yarn add @functional-abstraction/type
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-type --save
+npm install @functional-abstraction/type --save
 ```
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-type
+jspm install npm:@functional-abstraction/type
 ```
