@@ -1,4 +1,4 @@
-[js-type](http://make-github-pseudonymous-again.github.io/js-type)
+[@aureooms/js-type](https://make-github-pseudonymous-again.github.io/js-type)
 ==
 
 Type checking code bricks for JavaScript.
