@@ -1,25 +1,26 @@
+import test from 'ava';
+import * as type from '../../../src';
 
-var util, one, two;
 
-util = require( "util" );
+import util from "util" ;
 
-one = function ( n, v ) {
+function one ( n, v ) {
 
 	var msg;
 
 	msg = util.format( "type.isobject( %s ) === %s", n, v );
 
-	deepEqual( type.isobject( n ), v, msg );
+	t.deepEqual( type.isobject( n ), v, msg );
 };
 
-two = function ( n, v ) {
+function two ( n, v ) {
 	one(  n, v );
 	one( -n, v );
 };
 
 
 
-test( "isobject", function () {
+test( "isobject", t => {
 
 	one( 0, false );
 	one( NaN, false );

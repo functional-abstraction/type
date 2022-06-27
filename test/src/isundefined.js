@@ -1,25 +1,26 @@
+import test from 'ava';
+import * as type from '../../src';
 
-var util, one, two;
 
-util = require( "util" );
+import util from "util" ;
 
-one = function ( n, v ) {
+function one ( n, v ) {
 
 	var msg;
 
 	msg = util.format( "type.isundefined( %s ) === %s", n, v );
 
-	deepEqual( type.isundefined( n ), v, msg );
+	t.deepEqual( type.isundefined( n ), v, msg );
 };
 
-two = function ( n, v ) {
+function two ( n, v ) {
 	one(  n, v );
 	one( -n, v );
 };
 
 
 
-test( "isundefined", function () {
+test( "isundefined", t => {
 
 	one( 0, false );
 	one( NaN, false );

@@ -1,25 +1,26 @@
+import test from 'ava';
+import * as type from '../../../src';
 
-var util, one, two;
 
-util = require( "util" );
+import util from "util" ;
 
-one = function ( n, v ) {
+function one ( n, v ) {
 
 	var msg;
 
 	msg = util.format( "type.isregexp( %s ) === %s", n, v );
 
-	deepEqual( type.isregexp( n ), v, msg );
+	t.deepEqual( type.isregexp( n ), v, msg );
 };
 
-two = function ( n, v ) {
+function two ( n, v ) {
 	one(  n, v );
 	one( -n, v );
 };
 
 
 
-test( "isregexp", function () {
+test( "isregexp", t => {
 
 	one( 0, false );
 	one( NaN, false );

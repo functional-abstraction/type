@@ -1,25 +1,26 @@
+import test from 'ava';
+import * as type from '../../../src';
 
-var util, one, two;
 
-util = require( "util" );
+import util from "util" ;
 
-one = function ( n, v ) {
+function one ( n, v ) {
 
 	var msg;
 
 	msg = util.format( "type.isfinite( %s ) === %s", n, v );
 
-	deepEqual( type.isfinite( n ), v, msg );
+	t.deepEqual( type.isfinite( n ), v, msg );
 };
 
-two = function ( n, v ) {
+function two ( n, v ) {
 	one(  n, v );
 	one( -n, v );
 };
 
 
 
-test( "isfinite", function () {
+test( "isfinite", t => {
 
 	one( 0, true );
 	one( NaN, false );

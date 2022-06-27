@@ -1,25 +1,26 @@
+import test from 'ava';
+import * as type from '../../../src';
 
-var util, one, two;
 
-util = require( "util" );
+import util from "util" ;
 
-one = function ( n, v ) {
+function one ( n, v ) {
 
 	var msg;
 
 	msg = util.format( "type.isint32( %s ) === %s", n, v );
 
-	deepEqual( type.isint32( n ), v, msg );
+	t.deepEqual( type.isint32( n ), v, msg );
 };
 
-two = function ( n, v ) {
+function two ( n, v ) {
 	one(  n, v );
 	one( -n, v );
 };
 
 
 
-test( "isint32", function () {
+test( "isint32", t => {
 
 	one( 0, true );
 	one( NaN, false );
