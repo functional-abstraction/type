@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "ava",
-    "build": "./node_modules/.bin/aureooms-node-package-build",
+    "build": "NODE_ENV=production microbundle",
     "build-docs": "esdoc",
     "lint": "true"
   },
@@ -50,7 +50,7 @@
   "author": "aureooms",
   "name": "@aureooms/js-type",
   "homepage": "http://make-github-pseudonymous-again.github.io/js-type/",
-  "main": "js/dist/type.js",
+  "main": "dist/index.js",
   "license": "AGPL-3.0",
   "spm": {
     "main": "js/dist/type.js"
@@ -150,5 +150,17 @@
       "@babel/register"
     ],
     "timeout": "1m"
+  },
+  "source": "src/index.js",
+  "module": "dist/index.module.mjs",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "exports": {
+    ".": {
+      "browser": "./dist/index.module.mjs",
+      "umd": "./dist/index.umd.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.modern.mjs"
+    }
   }
 }
