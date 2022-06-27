@@ -2,7 +2,77 @@
   "name": "@functional-abstraction/type",
   "description": "Type helpers for JavaScript",
   "version": "1.0.4",
+  "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
+  "homepage": "https://functional-abstraction.github.io/type",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/functional-abstraction/type"
+  },
+  "bugs": {
+    "url": "https://github.com/functional-abstraction/type/issues"
+  },
+  "keywords": [
+    "bricks",
+    "javascript",
+    "js",
+    "type",
+    "typeof",
+    "types"
+  ],
+  "sideEffects": false,
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.mjs",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "exports": {
+    ".": {
+      "browser": "./dist/index.module.mjs",
+      "umd": "./dist/index.umd.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.modern.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production microbundle",
+    "build-docs": "esdoc",
+    "cover": "NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test",
+    "dev": "npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast",
+    "lint": "true",
+    "lint-config": "fixpack --dryRun",
+    "lint-config-and-fix": "fixpack || fixpack",
+    "prepare": "npm run build",
+    "release": "np --message ':hatching_chick: release: Bumping to v%s.'",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.18.5",
+    "@babel/preset-env": "7.18.2",
+    "@babel/register": "7.17.7",
+    "@commitlint/cli": "17.0.3",
+    "@js-library/commitlint-config": "0.0.4",
+    "ava": "4.3.0",
+    "babel-plugin-transform-remove-console": "6.9.4",
+    "babel-plugin-unassert": "3.2.0",
+    "babel-preset-power-assert": "3.0.0",
+    "c8": "7.11.3",
+    "esdoc": "1.1.0",
+    "esdoc-inject-script-plugin": "1.0.0",
+    "esdoc-inject-style-plugin": "1.0.0",
+    "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "microbundle": "0.15.0",
+    "np": "7.6.2",
+    "pinst": "3.0.0",
+    "power-assert": "1.6.1"
+  },
   "ava": {
     "files": [
       "test/src/**/*"
@@ -98,75 +168,5 @@
         ]
       }
     }
-  },
-  "bugs": {
-    "url": "https://github.com/functional-abstraction/type/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "7.18.5",
-    "@babel/preset-env": "7.18.2",
-    "@babel/register": "7.17.7",
-    "@commitlint/cli": "17.0.3",
-    "@js-library/commitlint-config": "0.0.4",
-    "ava": "4.3.0",
-    "babel-plugin-transform-remove-console": "6.9.4",
-    "babel-plugin-unassert": "3.2.0",
-    "babel-preset-power-assert": "3.0.0",
-    "c8": "7.11.3",
-    "esdoc": "1.1.0",
-    "esdoc-inject-script-plugin": "1.0.0",
-    "esdoc-inject-style-plugin": "1.0.0",
-    "esdoc-standard-plugin": "1.0.0",
-    "fixpack": "4.0.0",
-    "husky": "8.0.1",
-    "lint-staged": "13.0.3",
-    "microbundle": "0.15.0",
-    "np": "7.6.2",
-    "pinst": "3.0.0",
-    "power-assert": "1.6.1"
-  },
-  "exports": {
-    ".": {
-      "browser": "./dist/index.module.mjs",
-      "umd": "./dist/index.umd.js",
-      "require": "./dist/index.js",
-      "default": "./dist/index.modern.mjs"
-    }
-  },
-  "files": [
-    "dist"
-  ],
-  "homepage": "https://functional-abstraction.github.io/type",
-  "keywords": [
-    "bricks",
-    "javascript",
-    "js",
-    "type",
-    "typeof",
-    "types"
-  ],
-  "license": "AGPL-3.0",
-  "main": "dist/index.js",
-  "module": "dist/index.module.mjs",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/functional-abstraction/type"
-  },
-  "scripts": {
-    "build": "NODE_ENV=production microbundle",
-    "build-docs": "esdoc",
-    "cover": "NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test",
-    "dev": "npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast",
-    "lint": "true",
-    "prepare": "npm run build",
-    "release": "np --message ':hatching_chick: release: Bumping to v%s.'",
-    "test": "ava",
-    "lint-config-and-fix": "fixpack || fixpack",
-    "lint-config": "fixpack --dryRun"
-  },
-  "sideEffects": false,
-  "source": "src/index.js",
-  "umd:main": "dist/index.umd.js",
-  "unpkg": "dist/index.umd.js"
+  }
 }
