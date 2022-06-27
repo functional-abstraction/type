@@ -1411,7 +1411,7 @@
   dependencies:
     "@types/node" "*"
 
-"@typescript-eslint/eslint-plugin@*":
+"@typescript-eslint/eslint-plugin@^5.27.1":
   version "5.30.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.30.0.tgz#524a11e15c09701733033c96943ecf33f55d9ca1"
   integrity sha512-lvhRJ2pGe2V9MEU46ELTdiHgiAFZPKtLhiU5wlnaYpMc2+c1R8fh8i80ZAa665drvjHKUJyRRGg3gEm1If54ow==
@@ -1426,7 +1426,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@*":
+"@typescript-eslint/parser@^5.27.1":
   version "5.30.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.30.0.tgz#a2184fb5f8ef2bf1db0ae61a43907e2e32aa1b8f"
   integrity sha512-2oYYUws5o2liX6SrFQ5RB88+PuRymaM2EU02/9Ppoyu70vllPnHVO7ioxDdq/ypXHA277R04SVjxvwI8HmZpzA==
@@ -3418,7 +3418,7 @@ eslint-config-prettier@^8.5.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-xo-typescript@*:
+eslint-config-xo-typescript@^0.51.1:
   version "0.51.1"
   resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.51.1.tgz#0f9166edffb06cbb1dabddf84d295c843e43cd1f"
   integrity sha512-bqUYpPLylgOtuueawFJnLFX/t2W6shKYR+IwbwBZhw9ivr2sLd+8I2vLfKDDzxMrHzij8bkdVoRoDLRvugQoXg==
@@ -4447,6 +4447,11 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
+
+husky@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.1.tgz#511cb3e57de3e3190514ae49ed50f6bc3f50b3e9"
+  integrity sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==
 
 ice-cap@0.0.4:
   version "0.0.4"
@@ -6460,6 +6465,11 @@ pify@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-5.0.0.tgz#1f5eca3f5e87ebec28cc6d54a0e4aaf00acc127f"
   integrity sha512-eW/gHNMlxdSP6dmG6uJip6FXN0EQBwm2clYYd8Wul42Cwu/DK8HEftzsapcNdYe2MfLiIwZqsDk2RDEsTE79hA==
+
+pinst@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pinst/-/pinst-3.0.0.tgz#80dec0a85f1f993c6084172020f3dbf512897eec"
+  integrity sha512-cengSmBxtCyaJqtRSvJorIIZXMXg+lJ3sIljGmtBGUVonMnMsVJbnzl6jGN1HkOWwxNuJynCJ2hXxxqCQrFDdw==
 
 pirates@^4.0.5:
   version "4.0.5"
