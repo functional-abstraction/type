@@ -1,9 +1,8 @@
 
 
-var isundefined = function ( obj ) {
+export function isundefined ( obj ) {
 
 	return obj === undefined;
 
-};
+}
 
-exports.isundefined = isundefined;

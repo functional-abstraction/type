@@ -1,9 +1,8 @@
 
 
-var isarray = function ( value ) {
+export function isarray ( value ) {
 
 	return isinstance( Array, value );
 
-};
+}
 
-exports.isarray = isarray;

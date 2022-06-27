@@ -1,9 +1,8 @@
 
 
-var isint = function ( value ) {
+export function isint ( value ) {
 
 	return isfinite( value ) && (value % 1 === 0);
 
-};
+}
 
-exports.isint = isint;

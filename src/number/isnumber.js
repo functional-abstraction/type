@@ -1,9 +1,8 @@
 
 
-var isnumber = function ( value ) {
+export function isnumber ( value ) {
 
 	return isinstance( Number, value );
 
-};
+}
 
-exports.isnumber = isnumber;

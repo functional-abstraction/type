@@ -1,9 +1,8 @@
 
 
-var isdate = function ( value ) {
+export function isdate ( value ) {
 
 	return isinstance( Date, value );
 
-};
+}
 
-exports.isdate = isdate;

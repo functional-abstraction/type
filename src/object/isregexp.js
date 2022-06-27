@@ -1,9 +1,8 @@
 
 
-var isregexp = function ( value ) {
+export function isregexp ( value ) {
 
 	return isinstance( RegExp, value );
 
-};
+}
 
-exports.isregexp = isregexp;

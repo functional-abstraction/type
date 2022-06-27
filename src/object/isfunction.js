@@ -1,9 +1,8 @@
 
 
-var isfunction = function ( value ) {
+export function isfunction ( value ) {
 
 	return isinstance( Function, value );
 
-};
+}
 
-exports.isfunction = isfunction;

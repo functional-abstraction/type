@@ -1,9 +1,8 @@
 
 
-var isobject = function ( value ) {
+export function isobject ( value ) {
 
 	return isinstance( Object, value );
 
-};
+}
 
-exports.isobject = isobject;

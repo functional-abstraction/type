@@ -1,9 +1,8 @@
 
 
-var isstring = function ( value ) {
+export function isstring ( value ) {
 
 	return isinstance( String, value );
 
-};
+}
 
-exports.isstring = isstring;

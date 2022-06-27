@@ -1,9 +1,8 @@
 
 
-var isint32 = function ( value ) {
+export function isint32 ( value ) {
 
 	return isfinite( value ) && value === (value | 0);
 
-};
+}
 
-exports.isint32 = isint32;

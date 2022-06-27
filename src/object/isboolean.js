@@ -1,9 +1,8 @@
 
 
-var isboolean = function ( value ) {
+export function isboolean ( value ) {
 
 	return isinstance( Boolean, value );
 
-};
+}
 
-exports.isboolean = isboolean;

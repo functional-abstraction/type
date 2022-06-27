@@ -1,7 +1,6 @@
 
 
-var ispositiveinfinity = function ( value ) {
+export function ispositiveinfinity ( value ) {
 	return value === Infinity;
-};
+}
 
-exports.ispositiveinfinity = ispositiveinfinity;

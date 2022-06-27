@@ -1,9 +1,8 @@
 
 
-var isnull = function ( obj ) {
+export function isnull ( obj ) {
 
 	return obj === null;
 
-};
+}
 
-exports.isnull = isnull;
