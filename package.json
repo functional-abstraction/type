@@ -55,9 +55,6 @@
   "homepage": "http://make-github-pseudonymous-again.github.io/js-type/",
   "main": "dist/index.js",
   "license": "AGPL-3.0",
-  "spm": {
-    "main": "js/dist/type.js"
-  },
   "babel": {
     "sourceMaps": true,
     "presets": [
