@@ -151,7 +151,7 @@
   "module": "dist/index.module.mjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/functional-abstraction/type.git"
+    "url": "https://github.com/functional-abstraction/type"
   },
   "scripts": {
     "build": "NODE_ENV=production microbundle",
