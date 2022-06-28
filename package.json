@@ -6,8 +6,8 @@
   "author": "make-github-pseudonymous-again",
   "homepage": "https://functional-abstraction.github.io/type",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/functional-abstraction/type"
+    "url": "https://github.com/functional-abstraction/type",
+    "type": "git"
   },
   "bugs": {
     "url": "https://github.com/functional-abstraction/type/issues"
