@@ -127,12 +127,6 @@
       "debug": {
         "sourceMaps": "both",
         "presets": [
-          [
-            "@babel/preset-env",
-            {
-              "targets": "current node"
-            }
-          ],
           "babel-preset-power-assert"
         ],
         "plugins": [
@@ -152,49 +146,13 @@
       "test": {
         "sourceMaps": "both",
         "presets": [
-          [
-            "@babel/preset-env",
-            {
-              "targets": "current node"
-            }
-          ],
           "babel-preset-power-assert"
-        ],
-        "plugins": [
-          [
-            "transform-remove-console",
-            {
-              "exclude": [
-                "log",
-                "error",
-                "warn"
-              ]
-            }
-          ]
         ]
       },
       "cover": {
         "sourceMaps": "both",
         "presets": [
-          [
-            "@babel/preset-env",
-            {
-              "targets": "current node"
-            }
-          ],
           "babel-preset-power-assert"
-        ],
-        "plugins": [
-          [
-            "transform-remove-console",
-            {
-              "exclude": [
-                "log",
-                "error",
-                "warn"
-              ]
-            }
-          ]
         ]
       },
       "development": {
@@ -209,18 +167,6 @@
             }
           ],
           "babel-preset-power-assert"
-        ],
-        "plugins": [
-          [
-            "transform-remove-console",
-            {
-              "exclude": [
-                "log",
-                "error",
-                "warn"
-              ]
-            }
-          ]
         ]
       },
       "production": {
@@ -236,17 +182,7 @@
           ]
         ],
         "plugins": [
-          "babel-plugin-unassert",
-          [
-            "transform-remove-console",
-            {
-              "exclude": [
-                "log",
-                "error",
-                "warn"
-              ]
-            }
-          ]
+          "babel-plugin-unassert"
         ]
       }
     }
