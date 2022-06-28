@@ -1,5 +1,5 @@
 import test from 'ava';
-import {isRegExp, isArray, isObject} from '../../src/index.js';
+import {isRegExp, isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {
 	t.deepEqual(isRegExp(n), v);

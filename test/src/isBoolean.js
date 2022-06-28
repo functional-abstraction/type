@@ -1,5 +1,5 @@
 import test from 'ava';
-import {isBoolean, isArray, isObject} from '../../src/index.js';
+import {isBoolean, isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {
 	t.deepEqual(isBoolean(n), v);

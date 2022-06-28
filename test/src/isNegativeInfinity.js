@@ -1,5 +1,5 @@
 import test from 'ava';
-import {isNegativeInfinity, isArray, isObject} from '../../src/index.js';
+import {isNegativeInfinity, isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {
 	t.deepEqual(isNegativeInfinity(n), v);

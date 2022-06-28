@@ -1,5 +1,5 @@
 import test from 'ava';
-import {isNaN, isArray, isObject} from '../../src/index.js';
+import {isNaN, isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {
 	t.deepEqual(isNaN(n), v);

@@ -1,5 +1,5 @@
 import test from 'ava';
-import {isNull, isArray, isObject} from '../../src/index.js';
+import {isNull, isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {
 	t.deepEqual(isNull(n), v);

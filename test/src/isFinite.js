@@ -1,5 +1,5 @@
 import test from 'ava';
-import {isFinite, isArray, isObject} from '../../src/index.js';
+import {isFinite, isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {
 	t.deepEqual(isFinite(n), v);

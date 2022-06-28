@@ -1,5 +1,5 @@
 import test from 'ava';
-import {isArray, isObject} from '../../src/index.js';
+import {isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {
 	t.deepEqual(isObject(n), v);
