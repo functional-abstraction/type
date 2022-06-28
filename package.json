@@ -212,7 +212,17 @@
           ]
         ],
         "plugins": [
-          "babel-plugin-unassert"
+          "babel-plugin-unassert",
+          [
+            "transform-remove-console",
+            {
+              "exclude": [
+                "log",
+                "error",
+                "warn"
+              ]
+            }
+          ]
         ]
       }
     }
