@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">Home | @functional-abstraction/type</title>
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/isArray.js | @functional-abstraction/type</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -50,24 +50,13 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><p>:clown_face:</p>
-<h1 id="-a-href--https---functional-abstraction-github-io-type---functional-abstraction-type--a-"><a href="https://functional-abstraction.github.io/type">@functional-abstraction/type</a></h1><p>Type helpers for JavaScript.</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">import {isFunction} from &apos;@functional-abstraction/type&apos;;
-isFunction(() =&gt; {}); // true</code>
+<div class="content" data-ice="content"><h1 data-ice="title">src/isArray.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import isInstance from &apos;./isInstance.js&apos;;
+
+const isArray = (x) =&gt; isInstance(Array, x);
+export default isArray;
 </code></pre>
-<p><a href="https://raw.githubusercontent.com/functional-abstraction/type/main/LICENSE"><img src="https://img.shields.io/github/license/functional-abstraction/type.svg" alt="License"></a>
-<a href="https://www.npmjs.org/package/@functional-abstraction/type"><img src="https://img.shields.io/npm/v/@functional-abstraction/type.svg" alt="Version"></a>
-<a href="https://github.com/functional-abstraction/type/actions/workflows/ci.yml?query=branch:main"><img src="https://img.shields.io/github/workflow/status/functional-abstraction/type/ci?event=push&amp;label=tests" alt="Tests"></a>
-<a href="https://github.com/functional-abstraction/type/network/dependencies"><img src="https://img.shields.io/librariesio/github/functional-abstraction/type.svg" alt="Dependencies"></a>
-<a href="https://github.com/functional-abstraction/type/issues"><img src="https://img.shields.io/github/issues/functional-abstraction/type.svg" alt="GitHub issues"></a>
-<a href="https://www.npmjs.org/package/@functional-abstraction/type"><img src="https://img.shields.io/npm/dm/@functional-abstraction/type.svg" alt="Downloads"></a></p>
-<p><a href="https://codeclimate.com/github/functional-abstraction/type/issues"><img src="https://img.shields.io/codeclimate/issues/functional-abstraction/type.svg" alt="Code issues"></a>
-<a href="https://codeclimate.com/github/functional-abstraction/type/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/functional-abstraction/type.svg" alt="Code maintainability"></a>
-<a href="https://codecov.io/gh/functional-abstraction/type"><img src="https://img.shields.io/codecov/c/gh/functional-abstraction/type/main.svg" alt="Code coverage (cov)"></a>
-<a href="https://codeclimate.com/github/functional-abstraction/type/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/functional-abstraction/type.svg" alt="Code technical debt"></a>
-<a href="https://functional-abstraction.github.io/type/source.html"><img src="https://functional-abstraction.github.io/type/badge.svg" alt="Documentation"></a>
-<a href="https://bundlephobia.com/result?p=@functional-abstraction/type"><img src="https://img.shields.io/bundlephobia/minzip/@functional-abstraction/type" alt="Package size"></a></p>
-</div>
+
 </div>
 
 <footer class="footer">
