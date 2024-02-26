@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import {isFunction, isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {

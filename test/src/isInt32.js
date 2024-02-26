@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import {isInt32, isArray, isObject} from '#module';
 
 const macro = (t, n, v) => {
